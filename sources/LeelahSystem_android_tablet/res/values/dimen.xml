@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <dimen name="tinyText">10dip</dimen>
+  <dimen name="smallText">12dip</dimen>
+  <dimen name="bodyText">14dip</dimen>
+  <dimen name="middleText">16dip</dimen>
+  <dimen name="titleText">18dip</dimen>
+
+  <dimen name="headerHeight">45dip</dimen>
+  <dimen name="headerText">18dip</dimen>
+  <dimen name="headerMargin">12dip</dimen>
+  
+  <dimen name="smallMargin">3dip</dimen>
+  <dimen name="mediumMargin">5dip</dimen>
+  <dimen name="largeMargin">10dip</dimen>
+  
+  <dimen name="dotEdge">8dip</dimen>
+</resources>

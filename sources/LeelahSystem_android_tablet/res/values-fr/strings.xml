@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <string name="applicationName">Leelah</string>
+  <string name="applicationDescription">Leelah Android client prototype</string>
+
+  <string name="problem">Problème</string>
+  <string name="unhandledProblem">Vous venez de découvrir un bug dans l\'application, veuillez nous en excuser !\n\nAuriez-vous l\'amabilité de nous en faire part, SVP ? Merci.</string>
+  <string name="dialogButton_unhandledProblem">Envoyer</string>
+  <string name="progressDialogMessage_unhandledProblem">Récupération et calcul de la trace de l\'application...</string>
+  <string name="unavailableService">Service indisponible : l\'application ne peut continuer.\n\nSVP, appuyez sur la touche \"OK\".</string>
+  <string name="connectivityProblem">Votre terminal n\'est actuellement pas connecté à Internet, ou bien votre connexion est très mauvaise.\n\nVérifiez votre connexion et réessayez, SVP.</string>
+  <string name="unavailableItem">Impossible de récupérer correctement l\'élément : cet écran ne peut être affiché correctement, désolé.\n\nSVP, appuyez sur la touche \"OK\".</string>
+
+  <string name="LeelahSplashScreen_dialogMessage_noSdCard">Aucune carte SD n\'est couramment accessible sur le terminal : l\'application ne peut démarrer !</string>
+
+  <string name="Settings_version">Version</string>
+
+  <string name="Login_menu_settings">Réglages</string>
+  <string name="Login_menu_sharing">Partager</string>
+  <string name="Login_menu_about">À propos</string>
+
+  <string name="Sharing_rateMe">Notez moi !</string>
+  <string name="Sharing_otherApplications">Autres applications</string>
+  <string name="Sharing_send_subject">Pourquoi n\'essayeriez-vous pas l\'application Android \"%1$s\" ?</string>
+  <string name="Sharing_send_body1">Bonjour,&lt;br/&gt;&lt;br/&gt;&lt;b&gt;J\'utilise l\'application Android \"%1$s\"&lt;/b&gt;, et je vous propose de la tester à votre tour. Depuis votre terminal Android, vous pouvez l\'installer en cliquant sur\u0020</string>
+  <string name="Sharing_send_body2">. Cordialement.</string>
+
+</resources>

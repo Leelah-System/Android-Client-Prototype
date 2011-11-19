@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="bodyText">
+    <item name="android:textSize">@dimen/bodyText</item>
+    <item name="android:textColor">@color/android:black</item>
+  </style>
+
+  <!-- style name="titleBar" parent="@android:style/WindowTitleBackground">
+    <item name="android:background">@drawable/title_background</item>
+  </style -->
+
+  <style name="header">
+    <item name="android:orientation">horizontal</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/headerHeight</item>
+  </style>
+  
+  <style name="headerButton">
+    <item name="android:background">@drawable/btn_bg</item>
+    <item name="android:layout_height">@dimen/headerHeight</item>
+    <item name="android:layout_width">@dimen/headerHeight</item>
+  </style>
+
+  <style name="headerSeparator">
+    <item name="android:background">@color/header_separator</item>
+    <item name="android:layout_width">1px</item>
+    <item name="android:layout_height">fill_parent</item>
+  </style>
+
+  <style name="headerText">
+    <item name="android:textSize">@dimen/headerText</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:paddingLeft">@dimen/headerMargin</item>
+    <item name="android:paddingRight">@dimen/headerMargin</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:ellipsize">marquee</item>
+    <item name="android:layout_width">fill_parent</item>
+  </style>
+
+  <style name="defaultText">
+    <item name="android:textSize">@dimen/bodyText</item>
+    <item name="android:textColor">@android:color/black</item>
+  </style>
+  
+  <style
+    name="Widget.ProgressBar.Inverse"
+    parent="@style/android:Widget.ProgressBar.Inverse"
+  >
+    <item name="android:indeterminateDrawable">@drawable/loading_progress</item>
+  </style>
+
+    <!-- style for the tabs -->
+    <style name="customActionBarStyle" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/purple</item>
+    </style>
+  
+</resources>
